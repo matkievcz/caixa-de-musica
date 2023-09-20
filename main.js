@@ -1,2 +1,2 @@
-alert('Olá Mariana');
+document.querySelector('.tecla_pom');
 
