@@ -18,8 +18,8 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  color: var(--branca);
+h1 {-branca
+  color: var(--vermelha);
   margin-bottom: 20px;
   font-size: 2rem;
 }
