@@ -1,14 +1,16 @@
 :root {
   --cinza: #483D8B;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --vermelha: #DB7093;
+  --vermelha-escura: #B15C78;
   --branca: #fff;
+  --azul: #FFC9DB;
+  --preto: #696969;
   --luz: rgb(129, 25, 189);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #BA55D3 0%,#9400D3 100%);
+  background: linear-gradient(45deg, #FFFAFA 45%,#FFF5EE 55%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -36,7 +38,7 @@ h1 {
   background-color: var(--branca);
   border-radius: 30px;
   box-shadow: 3px 3px 0 var(--cinza);
-  color: var(--vermelha);
+  color: var(--preto);
   cursor: pointer;
   height: 120px;
   font-size: 1.75em;
@@ -63,5 +65,5 @@ h1 {
 
 .tecla.active:focus,
 .tecla:active:focus {
-  box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+  box-shadow: 3px 3px 0 var(--azul) inset, 1px 1px 10px var(--luz);
 }
